@@ -1,4 +1,4 @@
-# Install script for directory: /home/pasha/CLionProjects/Cat_s21
+# Install script for directory: /home/pasha/CLionProjects/cat-grep
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pasha/CLionProjects/Cat_s21/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pasha/CLionProjects/cat-grep/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

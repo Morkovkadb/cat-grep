@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/pasha/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/pasha/CLionProjects/Cat_s21 -B/home/pasha/CLionProjects/Cat_s21/cmake-build-debug
+  command = /home/pasha/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/pasha/CLionProjects/cat-grep -B/home/pasha/CLionProjects/cat-grep/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
